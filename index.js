@@ -14,9 +14,9 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: mongodb://heroku_30f9n9lm:a0n9uv2h8nnr5fdufchqndkobd@ds019063.mlab.com:19063/heroku_30f9n9lm,
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: ‘dogtime’,
+  appId: ‘dogtimenew’,
   masterKey: ‘winso05312dogtime$’ //Add your master key here. Keep it secret!
-  serverURL: 'http://dogtime.herokuapp.com/parse',  // Don't forget to change to https if needed
+  serverURL: 'http://dogtimenew.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
